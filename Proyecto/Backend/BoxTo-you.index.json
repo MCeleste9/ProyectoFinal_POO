@@ -1,0 +1,1271 @@
+[{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6f6"
+  },
+  "const": "const",
+  "express": "mongoose",
+  "=": "=",
+  "require('express');": "require('mongoose');"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6f7"
+  },
+  "const": "const",
+  "express": "cors",
+  "=": "=",
+  "require('express');": "require('cors');"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6f8"
+  },
+  "const": "const",
+  "express": "app",
+  "=": "=",
+  "require('express');": "express();"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6f9"
+  },
+  "const": "const",
+  "express": "port",
+  "=": "=",
+  "require('express');": "3000;"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6fb"
+  },
+  "const": "const",
+  "express": "usuarios",
+  "=": "=",
+  "require('express');": "require('./data/usuarios.json');"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6fc"
+  },
+  "const": "const",
+  "express": "pedidos",
+  "=": "=",
+  "require('express');": "require('./data/pedidos.json');"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6fd"
+  },
+  "const": "const",
+  "express": "clientes",
+  "=": "=",
+  "require('express');": "require('./data/motoristas.json');"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c6ff"
+  },
+  "const": "app.use(express.json());"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c700"
+  },
+  "const": "app.use(cors());"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c702"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "obtener"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c703"
+  },
+  "const": "app.get('/usuarios',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c704"
+  },
+  "=": "res.json(usuarios);"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c705"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c707"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "el"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c708"
+  },
+  "const": "app.post('/login',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c709"
+  },
+  "=": "const",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c70a"
+  },
+  "=": "console.log(req.body);"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c70b"
+  },
+  "=": "const",
+  "require('express');": "usuarioEncontrado"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c70c"
+  },
+  "=": "if",
+  "require('express');": "(usuarioEncontrado)"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c70d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c70e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c70f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c710"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c711"
+  },
+  "=": "}",
+  "require('express');": "else"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c712"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c713"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c714"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c715"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c716"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "Registro"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c717"
+  },
+  "const": "app.post('/registro',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c718"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c719"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c71a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c71b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c71c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c71d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c71e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c71f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c720"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c721"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c722"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c723"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c724"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c725"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c726"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c727"
+  },
+  "const": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c728"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c729"
+  },
+  "=": "const",
+  "require('express');": "nuevoUsuario"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c72a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c72b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c72c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c72d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c72e"
+  },
+  "=": "};"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c72f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c730"
+  },
+  "=": "usuarios.push(nuevoUsuario);"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c731"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c732"
+  },
+  "=": "res.json({",
+  "require('express');": "exito:"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c733"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c734"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c735"
+  },
+  "const": "app.listen(3000,",
+  "express": "()",
+  "=": "=>",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c736"
+  },
+  "=": "console.log('Servidor",
+  "require('express');": "en"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c737"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c738"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c739"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "el"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c73a"
+  },
+  "const": "app.post('/login',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c73b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c73c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c73d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c73e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c73f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c740"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c741"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c742"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c743"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c744"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c745"
+  },
+  "=": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c746"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c747"
+  },
+  "=": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "require('express');": "Endpoint"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c748"
+  },
+  "=": "app.post('/registro',",
+  "require('express');": "(req,"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c749"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c74a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c74b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c74c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c74d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c74e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c74f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c750"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c751"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c752"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c753"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c754"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c755"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c756"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c757"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c758"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c759"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c75a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c75b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c75c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c75d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c75e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c75f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c760"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c761"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c762"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c763"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c764"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c765"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c766"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c767"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "obtener"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c768"
+  },
+  "const": "app.get('/usuarios/:id',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c769"
+  },
+  "=": "const",
+  "require('express');": "userId"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c76a"
+  },
+  "=": "console.log(userId);"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c76b"
+  },
+  "=": "const",
+  "require('express');": "usuario"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c76c"
+  },
+  "=": "if",
+  "require('express');": "(usuario)"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c76d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c76e"
+  },
+  "=": "}",
+  "require('express');": "else"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c76f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c770"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c771"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c772"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c773"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "crear"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c774"
+  },
+  "const": "app.post('/usuarios',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c775"
+  },
+  "=": "const",
+  "require('express');": "nuevoUsuario"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c776"
+  },
+  "=": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "require('express');": "Asigna"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c777"
+  },
+  "=": "nuevoUsuario.id",
+  "require('express');": "="
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c778"
+  },
+  "=": "usuarios.push(nuevoUsuario);"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c779"
+  },
+  "=": "res.json(nuevoUsuario);"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c77a"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c77b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c77c"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "enviar"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c77d"
+  },
+  "const": "app.post('/pedido',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c77e"
+  },
+  "=": "const",
+  "require('express');": "nuevoPedido"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c77f"
+  },
+  "=": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "require('express');": "Determina"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c780"
+  },
+  "=": "if",
+  "require('express');": "(nuevoPedido.idPedidos)"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c781"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c782"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c783"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c784"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c785"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c786"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c787"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c788"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c789"
+  },
+  "=": "}",
+  "require('express');": "else"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c78a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c78b"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c78c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c78d"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c78e"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c78f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c790"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c791"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c792"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c793"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c794"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c795"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "obtener"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c796"
+  },
+  "const": "app.get('/orden/:id/pedidos',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c797"
+  },
+  "=": "const",
+  "require('express');": "ordenId"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c798"
+  },
+  "=": "const",
+  "require('express');": "orden"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c799"
+  },
+  "=": "if",
+  "require('express');": "(orden)"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c79a"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c79b"
+  },
+  "=": "}",
+  "require('express');": "else"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c79c"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c79d"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c79e"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c79f"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a0"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "Endpoint",
+  "=": "para",
+  "require('express');": "obtener"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a1"
+  },
+  "const": "app.get('/ordenes/:id/clientes',",
+  "express": "(req,",
+  "=": "res)",
+  "require('express');": "=>"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a2"
+  },
+  "=": "const",
+  "require('express');": "ordenesId"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a3"
+  },
+  "=": "const",
+  "require('express');": "ordenes"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a4"
+  },
+  "=": "if",
+  "require('express');": "(ordenes)"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a5"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a6"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a7"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a8"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7a9"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7aa"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7ab"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7ac"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7ad"
+  },
+  "=": "}",
+  "require('express');": "else"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7ae"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7af"
+  },
+  "=": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b0"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b1"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b2"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "function",
+  "=": "llamarUsuarios(){"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b3"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "require('express');": "fetch('http://127.0.0.1:5500/frontend/index.html')"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b4"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "require('express');": ".then((response)=>response.json())"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b5"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "require('express');": ".then(usuarios"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b6"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "}"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b7"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b8"
+  },
+  "const": "app.listen(port,",
+  "express": "()",
+  "=": "=>",
+  "require('express');": "{"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7b9"
+  },
+  "=": "console.log(`Servidor",
+  "require('express');": "en"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7ba"
+  },
+  "const": "});"
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7bb"
+  }
+},
+{
+  "_id": {
+    "$oid": "64eaf575b825cef2f812c7bc"
+  },
+  "const": {
+    "$regularExpression": {
+      "pattern": "(?:)",
+      "options": ""
+    }
+  },
+  "express": "llamarUsuarios();"
+}]

@@ -1,0 +1,55 @@
+{
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Lizzy Pineda",
+        "telefono": "",
+        "direccion": "Calle Principal 123",
+        "historial_pedidos": [
+          {
+            "pedido_id": 101,
+            "fecha": "2023-08-26",
+            "productos": [
+              {
+                "nombre": "menu 2",
+                "cantidad": 2
+              },
+              {
+                "nombre": "menu 4",
+                "cantidad": 3
+              }
+            ]
+          },
+          {
+            "pedido_id": 102,
+            "fecha": "2023-08-25",
+            "productos": [
+              {
+                "nombre": "menu 3",
+                "cantidad": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Santiago Godoy",
+        "telefono": "",
+        "direccion": "Avenida Secundaria 456",
+        "historial_pedidos": [
+          {
+            "pedido_id": 103,
+            "fecha": "2023-08-24",
+            "productos": [
+              {
+                "nombre": "menu 4",
+                "cantidad": 2
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

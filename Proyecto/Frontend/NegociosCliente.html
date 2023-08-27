@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Negocios</title>
+    <link rel="icon" type="image/png" sizes="500x500" href="img/boxtoyou.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .order-content {
+            background-color: #d9d9d9;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 350px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .control {
+            background: #046bc9;
+            color: #ffffff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .restaurant-card {
+            margin-bottom: 20px;
+            border: none;
+        }
+        .restaurant-card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .search-bar {
+            width: 100%;
+            margin-top: 20px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+        }
+        .menu-item {
+            flex: 1;
+            text-align: center;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #ffffff;
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div 
+     style="height: 700px; width: 350px; margin-left: auto; margin-right: auto; padding: 30px 20px 30px 20px;">
+
+    <section id="contact" class="contact-section" style="background-color: #046bc9; padding: 2rem 0; height: 700px;">
+        <form>
+            <img src="img/boxtoyou.png" style="width: 100px; height: 100px; margin: 0 auto 25px; display: block;">
+            <div class="search-bar">
+                <input type="text" style="margin: 15px" placeholder="Buscar restaurante...">
+                <input type="image" type="button" size="10x10" src="img/busqueda.png" href="#">
+            </div>
+            <div class="contact-content" style="width: auto; padding-left: 110px; padding-right: 110px; padding-top: 60px; padding-bottom: 60px; background: #d9d9d9">
+            <div class="restaurant-card">
+                <img src="img/Mc.png" alt="Restaurante 1" type="button">
+            </div>
+            <div class="restaurant-card">
+                <img src="img/Papa.jpg" alt="Restaurante 2" type="button">
+            </div>
+            <div class="restaurant-card">
+                <img src="img/pope.png" alt="Restaurante 3" type="button">
+            </div>
+        </div>
+        <div class="menu">
+            <input class="control" type="image" type="button" size="10x10" src="img/usuario.png" href="ServiciosCliente.html">
+            <input class="control" type="image" type="button" size="10x10" src="img/avion.png" href="#">
+            <input class="control" type="image" type="button" size="10x10" src="img/campana.png" href="#">
+        </div>
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+</div>
+</section>
+</body>
+</html>

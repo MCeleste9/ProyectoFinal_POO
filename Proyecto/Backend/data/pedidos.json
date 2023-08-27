@@ -1,0 +1,35 @@
+{
+    "orden_de_pedidos": [
+      {
+        "pedido_id": 101,
+        "cliente": "Lizzy Pineda",
+        "direccion_entrega": "Calle Principal 123",
+        "productos": [
+          {
+            "nombre": "Menu 2",
+            "cantidad": 2
+          },
+          {
+            "nombre": "menu 4",
+            "cantidad": 3
+          }
+        ],
+        "repartidor_asignado": 1,
+        "estado": "Pendiente"
+      },
+      {
+        "pedido_id": 102,
+        "cliente": "Santiago Godoy",
+        "direccion_entrega": "Avenida Secundaria 456",
+        "productos": [
+          {
+            "nombre": "Menu 4",
+            "cantidad": 1
+          }
+        ],
+        "repartidor_asignado": 2,
+        "estado": "En ruta"
+      }
+    ]
+  }
+  

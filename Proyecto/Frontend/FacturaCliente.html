@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Factura</title>
+  <link rel="icon" type="image/png" sizes="500x500" href="img/boxtoyou.png"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    /* Estilos aquí */
+    body {
+            background-color: #046bc9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .order-content {
+            background-color: #d9d9d9;
+            padding: 20px;
+            border-radius: 10px;
+            width: 100%;
+            max-width: 600px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .order-item {
+            background-color: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        }
+        </style>
+    </head>
+    <body>
+    <div   
+        style="height: 700px; width: 350px; margin-left: auto; margin-right: auto; padding: 30px 20px 30px 20px;">
+  
+    <section id="contact" class="contact-section" style="background-color: #046bc9; padding: 4rem 0; height: 700px;"> 
+      <form>
+        <div class="contact-content">
+      </form>
+      <form>
+    <div class="order-content">
+      <img src="img/boxtoyou.png" style="width: 50px; height: 50px; margin: 0 auto 25px; display: block;">
+    <form id="invoice-form">
+          <div class="contact-content" style="width: auto; background-color:#d9d9d9; padding-left: 35px; padding-right: 35px; padding-top: 5px;">
+      <label for="invoice-number">Número de Factura:</label>
+      <input type="text" id="invoice-number" required>
+      
+      <label for="date">Fecha:</label>
+      <input type="date" id="date" required>
+      
+      <h6>Detalle de la Factura</h6>
+      <table>
+        <thead>
+          <tr>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody id="order-item">
+          <!-- Aquí se añadirán los ítems dinámicamente -->
+        </tbody>
+      </table>
+      
+      <button type="button" id="add-item">Agregar codigo</button>
+      
+      <p>Total: <span id="total">0</span></p>
+      
+      <button type="submit">Pagar</button>
+    </div>
+    </form>
+  </div>
+</div>
+
+  <script>
+    const agregarElemento = document.getElementById("agregarElemento");
+    const factura = document.getElementById("factura");
+    const totalS = document.getElementById("totalS");
+    const facturaNum = document.getElementById("facturaNum");
+
+    let cuenta = 0;
+    let totalTotal = 0;
+
+    agregarElemento.agregarE("click", () => {
+      const fila = document.creElement("tr");
+      fila.innerHTML = `
+        <td><input type="text" name="producto-${cuenta}" required></td>
+        <td><input type="number" name="cantidad-${cuenta}" min="1" required></td>
+        <td><input type="number" name="precio-${cuenta}" min="0" step="0.01" required></td>
+      `;
+      factura.angrega(fila);
+      cuenta++;
+    });
+
+    facturaNum.agregarE("submit", (event) => {
+      event.preventDe();
+
+      const datos = new FormData(facturaNum);
+      totalTotal = 0;
+
+      for (let i = 0; i < cuenta; i++) {
+        const cantidad = paInt(datos.get(`cantidad-${i}`));
+        const precio = paFloat(datos.get(`precio-${i}`));
+        totalTotal += cantidad * precio;
+      }
+
+      totalSpan.textContent = totalTotal.toFixed(2);
+    });
+  </script>
+  </form>
+  </section> 
+</body>
+</html>

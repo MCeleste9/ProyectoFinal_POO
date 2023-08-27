@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+
+/* Estilos generales */
+body {
+    background-color: #046bc9;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #046bc9;
+    padding: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 2px;
+    padding: 3px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/* Estilos para las secciones */
+.hero-section {
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    background-position:center center;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000000;
+    text-align: center;
+    padding: 4rem 0;
+    
+}
+
+.about-section {
+    background-color: #f4f4f4;
+    padding: 4rem 0;
+}
+
+.services-section {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section {
+    background-color: #d9d9d9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 350px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el contenido */
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.2rem;
+    border-radius: 4px;
+}
+
+.about-content h2,
+.services-content h2,
+.contact-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services-content ul {
+    list-style: none;
+    padding: 2px;
+}
+
+.services-content li {
+    margin-bottom: 0.5rem;
+}
+
+.contact-content form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-content input,
+.contact-content textarea,
+.contact-content button {
+    margin: 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: -webkit-fill-available;
+}
+
+.contact-content button {
+    background-color: #ffffff;
+    color: #046bc9;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+

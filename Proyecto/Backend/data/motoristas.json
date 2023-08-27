@@ -1,0 +1,21 @@
+{
+    "repartidores": [
+      {
+        "id": 1,
+        "nombre": "Anderson Peréz",
+        "codigo": "397367",
+        "direccion": "Calle 123, Ciudad",
+        "telefono": "98760098",
+        "zonas_entrega": ["Zona A", "Zona B"]
+      },
+      {
+        "id": 2,
+        "nombre": "Camila Rodríguez",
+        "codigo": "397385",
+        "direccion": "Av. Principal, Pueblo",
+        "telefono": "96543210",
+        "zonas_entrega": ["Zona C"]
+      }
+    ]
+  }
+  
